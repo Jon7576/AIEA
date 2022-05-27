@@ -35,8 +35,8 @@ a:focus {
 }
 
 blockquote {
-  font-size: 0.86em;
-  line-height: 1.8em;
+  font-size: 0.75em;
+  line-height: 1.5em;
 }
 
 .tm-section-pad-top {
@@ -206,14 +206,14 @@ blockquote {
 }
 
 .tm-hero-title {
-  font-size: 3.5rem;
+  font-size: 7rem;
   /* text-shadow: 2px 2px 2px #333; */
-  text-shadow: 4px 4px 16px #000000af;
+  text-shadow: 4px 4px 8px #000000af;
 }
 
 .tm-hero-subtitle {
   /* text-shadow: 2px 2px 2px #333; */
-  text-shadow: 2px 2px 8px #000000af;
+  text-shadow: 2px 2px 4px #000000af;
 }
 
 .tm-intro-next {
@@ -291,7 +291,7 @@ blockquote {
 
 @media (max-width: 991px) {
   #Our_Facilities {
-    background-image: url(../img/Our-Facilities-Background-mobile.jpg);
+    background-image: url(../img/Our-Facilities-Background-mobile-02.jpg);
     height: 100vh;
     min-height: 375px;
   }
@@ -369,10 +369,29 @@ blockquote {
 /* --- 4th Section - Our_Industry_Partners --- end */
 
 /* --- 5th Section - Industry_Collaboration_Projects --- start */
+#Industry_Collaboration_Projects {
+  color: white;
+  background-image: url(../img/Industry-Collaboration-Projects.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  height: 100vh;
+  min-height: 375px;
+}
+
+@media (max-width: 991px) {
+  #Industry_Collaboration_Projects {
+    background-image: url(../img/Industry-Collaboration-Projects-mobile.jpg);
+    height: 100vh;
+    min-height: 375px;
+  }
+}
+
 .tm-section-desc {
   max-width: 1250px; /* control the width of the gallery images */
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   /* align: center; */
 }
 
@@ -404,6 +423,27 @@ blockquote {
 }
 /* --- 5th Section - Industry_Collaboration_Projects --- end */
 
+/* --- 6th Section - Continuing_Education_Training --- start */
+#Continuing_Education_Training {
+  color: white;
+  background-image: url(../img/Continuing-Education-Training.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  height: 100vh;
+  min-height: 375px;
+}
+
+@media (max-width: 991px) {
+  #Continuing_Education_Training {
+    background-image: url(../img/Continuing-Education-Training-mobile.jpg);
+    height: 100vh;
+    min-height: 375px;
+  }
+}
+/* --- 6th Section - Continuing_Education_Training --- start */
+
 /* --- 7th Section - Internship_Programme --- start */
 #Internship_Programme {
   color: white;
@@ -424,10 +464,30 @@ blockquote {
 
 /* --- 7th Section - Internship_Programme --- end */
 
+/* --- 8th Section - Graduates_Alumni --- start */
+#Graduates_Alumni {
+  color: white;
+  background-image: url(../img/Graduates-Alumni.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  height: 100vh;
+  min-height: 375px;
+}
+
+@media (max-width: 991px) {
+  #Graduates_Alumni {
+    background-image: url(../img/Graduates-Alumni-mobile.jpg);
+    min-height: 375px;
+  }
+}
+/* --- 8th Section - Graduates_Alumni --- end */
+
 /* --- 9th Section - Meet_The_Team --- start */
 #Meet_The_Team {
   color: white;
-  background-image: url(../img/infinite-loop-02.jpg);
+  background-image: url(../img/Meet-The-Team.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -436,7 +496,7 @@ blockquote {
 
 @media (max-width: 991px) {
   #Meet_The_Team {
-    background-image: url(../img/infinite-loop-02-mobile.jpg);
+    background-image: url(../img/Meet-The-Team-mobile.jpg);
   }
 }
 
@@ -476,7 +536,7 @@ blockquote {
 .tm-testimonial-item figcaption {
   text-align: right;
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
 }
 
 .tm-Meet_The_Team-carousel .slick-dots li button:before {
