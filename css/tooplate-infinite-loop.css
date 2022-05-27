@@ -337,6 +337,37 @@ blockquote {
 }
 /* --- 3rd Section - Our_Facilities --- end */
 
+/* --- 4th Section - Our_Industry_Partners --- start */
+#Our_Industry_Partners {
+  color: white;
+  background-image: url(../img/Our-Industry-Partners-Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  height: 100vh;
+  min-height: 375px;
+}
+
+@media (max-width: 500px) {
+  #Our_Industry_Partners {
+    background-image: url(../img/Our-Industry-Partners-Background-mobile.jpg);
+    height: 100vh;
+    min-height: 2650px;
+  }
+}
+
+.col-sm-3 {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+/* --- 4th Section - Our_Industry_Partners --- end */
+
 /* --- 5th Section - Industry_Collaboration_Projects --- start */
 .tm-section-desc {
   max-width: 1250px; /* control the width of the gallery images */
