@@ -439,7 +439,7 @@ blockquote {
   #Continuing_Education_Training {
     background-image: url(../img/Continuing-Education-Training-mobile.jpg);
     height: 100vh;
-    min-height: 375px;
+    min-height: 950px; /* old value is: 375 */
   }
 }
 /* --- 6th Section - Continuing_Education_Training --- start */
@@ -459,6 +459,8 @@ blockquote {
 @media (max-width: 991px) {
   #Internship_Programme {
     background-image: url(../img/Internship_Programme-Background-mobile.jpg);
+    height: 100vh;
+    min-height: 950px; /* old value is: 375 */
   }
 }
 
@@ -479,7 +481,8 @@ blockquote {
 @media (max-width: 991px) {
   #Graduates_Alumni {
     background-image: url(../img/Graduates-Alumni-mobile.jpg);
-    min-height: 375px;
+    height: 100vh;
+    min-height: 950px; /* old value is: 375 */
   }
 }
 /* --- 8th Section - Graduates_Alumni --- end */
