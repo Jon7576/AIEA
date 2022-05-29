@@ -293,7 +293,7 @@ blockquote {
   #Our_Facilities {
     background-image: url(../img/Our-Facilities-Background-mobile-02.jpg);
     height: 100vh;
-    min-height: 975px;
+    min-height: 975px; /* old value is: 375 */
   }
 }
 
