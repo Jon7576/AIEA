@@ -384,7 +384,7 @@ blockquote {
   #Industry_Collaboration_Projects {
     background-image: url(../img/Industry-Collaboration-Projects-mobile.jpg);
     height: 100vh;
-    min-height: 375px;
+    min-height: 950px; /* old value is: 375 */
   }
 }
 
