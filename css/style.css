@@ -346,7 +346,7 @@ blockquote {
   background-size: 100%;
   position: relative;
   height: 100vh;
-  min-height: 375px;
+  min-height: 975px;
 }
 
 @media (max-width: 500px) {
